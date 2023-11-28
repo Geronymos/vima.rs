@@ -1,0 +1,5 @@
+LDC 0
+ADD 0x01
+ADD 0b101010
+STV res
+
