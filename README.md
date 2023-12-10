@@ -6,8 +6,15 @@
 ## Get started
 
 ```sh
-cargo run -- example.mima
+cargo run -- example.mima out.o
 ```
+
+### View the output
+
+```sh
+xxd -c 3 -g1 out.o
+```
+
 
 ## License
 
